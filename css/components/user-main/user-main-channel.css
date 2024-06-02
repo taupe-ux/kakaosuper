@@ -1,0 +1,36 @@
+.main-channel {
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.main-channel__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.main-channel__list--number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-main__introduction--channel {
+  font-weight: 400;
+}
+
+.user-main__introduction--img-channel {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+}
+
+.user-main__introduction:last-child span {
+  margin-right: 5px;
+}
+
+.main-channel__list--number .user-main__introduction:last-child {
+  opacity: 0.8;
+}

@@ -1,0 +1,133 @@
+.find-main {
+  margin: 0px 60px;
+}
+
+.find-main__column:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-main__icons__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-main__icons__column span {
+  margin-top: 20px;
+}
+
+.recommended-box {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  margin-top: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  opacity: 0.6;
+}
+
+.recommended-box h6 {
+  text-align: center;
+  padding: 120px 0px;
+  font-size: 18px;
+}
+
+.find-main__openchat {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  opacity: 0.6;
+}
+
+.openchat-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.openchat-list__box {
+  position: relative;
+}
+
+.openchat-list__box:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.openchat-list__box:first-child span {
+  margin-bottom: 8px;
+}
+
+.openchat-list__box--img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+
+.openchat-list__box:first-child span:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.openchat-list--setting {
+  display: flex;
+}
+
+.openchat-list--setting-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.openchat-list--bar {
+  width: 1px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.openchat-list--setting span:last-child {
+  color: #ff88d1;
+}
+
+.openchat-heart-box {
+  background-color: #f7d953;
+  color: rgba(116, 75, 82, 0.952);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  bottom: 0px;
+  left: 70px;
+}
+
+.openchat-heart-box i {
+  margin-right: 5px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.openchat-heart-box:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}

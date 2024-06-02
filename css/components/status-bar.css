@@ -1,0 +1,72 @@
+.status-bar {
+  width: 100%;
+  padding: 8px;
+  display: flex;
+}
+
+.status-bar .status-bar--chatting {
+  position: fixed;
+  top: 0;
+  background-color: #a0deed;
+  z-index: 1;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:first-child i {
+  margin-left: 5px;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__column:last-child span {
+  margin-left: 10px;
+}
+
+.status-bar__column:last-child .fa-battery-quarter,
+.status-bar__column:last-child .fa-battery-full {
+  margin: 0px 5px;
+}
+
+/*setting status-bar*/
+
+.status-bar-setting-header {
+  display: flex;
+  margin: 30px 0px;
+  padding: 0px 15px;
+  font-size: 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: #a0deed;
+}
+
+.status-bar-setting__column {
+  width: 33%;
+}
+
+.status-bar-setting__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar-setting__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-bar-setting__column .fa-bars {
+  margin-left: 25px;
+}

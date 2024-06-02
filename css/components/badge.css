@@ -1,0 +1,58 @@
+.badge {
+  background-color: tomato;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav-chats {
+  position: absolute;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  left: 20px;
+  bottom: 15px;
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+.nav-ellipsis {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  left: 28px;
+}
+
+.chats-stemp {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.header-gear {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  bottom: 23px;
+}

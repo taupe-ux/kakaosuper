@@ -1,0 +1,31 @@
+.status-bar-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 30px;
+}
+
+.status-bar-header__column:first-child span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.status-bar-header__column i {
+  margin-left: 20px;
+}
+
+.badge-header-position {
+  position: relative;
+}
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.status-bar-header__column .fa-gear:hover {
+  animation: rotateGear 1s linear infinite;
+}

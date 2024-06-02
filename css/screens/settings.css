@@ -1,0 +1,38 @@
+.main-setting {
+  margin: 30px;
+}
+
+.main-setting__column {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.main-setting__nomal {
+  font-size: 22px;
+}
+
+.main-setting__nomal i {
+  margin-right: 10px;
+}
+
+.main-setting__add {
+  opacity: 0.6;
+}
+
+.main-setting__column:last-child {
+  border-bottom: 0px;
+}
+
+.main-setting-divide {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+}
+
+.main-setting__nomal .fa-n {
+  font-size: 12px;
+  color: red;
+}

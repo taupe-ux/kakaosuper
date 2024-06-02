@@ -1,0 +1,27 @@
+.user-main {
+  margin: 0px 25px;
+}
+
+.user-main__column--chats-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-main__introduction {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.user-main__introduction--img {
+  border-radius: 30px;
+  margin-right: 20px;
+  width: 90px;
+  height: 90px;
+}
+
+.user-main__introduction--name {
+  font-size: 20px;
+  font-weight: 600;
+}

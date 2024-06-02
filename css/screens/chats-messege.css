@@ -1,0 +1,23 @@
+.user-main__introduction--text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-main__introduction--name-firends__text {
+  margin-top: 8px;
+  opacity: 0.6;
+}
+
+.user-main__column--chats-timestemp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chats-times {
+  opacity: 0.6;
+}
+
+.chat-page-margin {
+  margin-top: -30px;
+}
